@@ -1,0 +1,308 @@
+html,body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft Yahei";
+}
+a,img,button,input,ul,li{
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+}
+li{
+    list-style-type: none;
+}
+ul{
+    padding: 0;
+}
+.step-one{
+    background: url(http://greets.oss-cn-beijing.aliyuncs.com/image/b1.png) no-repeat;
+    width: 7.5rem;
+    height: 13.20rem;
+    background-size: 100%;
+    display: table;
+}
+.step-one span{
+    width: 2.3rem;
+    height: 3.0rem;
+    display: block;
+    position: absolute;
+    background-size: 100%
+}
+.card-one{    
+    background: url(http://greets.oss-cn-beijing.aliyuncs.com/image/1.png) no-repeat;
+    z-index: 1;
+    top: 2.3rem;
+    left: 1.2rem;
+    animation: cardone;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-play-state: running;
+}
+@keyframes cardone /* Opera */
+{
+    0%   {opacity: 0}
+    25%  {opacity: 0.25}
+    50%  {opacity: 0.5}
+    75%  {opacity: 0.75}
+    100% {opacity: 1}
+}
+.card-two{    
+    background: url(http://greets.oss-cn-beijing.aliyuncs.com/image/2.png) no-repeat;
+    top: 2.1rem;
+    left: 4.4rem;
+    transform:rotate(17deg);
+    z-index: 1;
+    animation: cardtwo;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-play-state: running;
+}
+@keyframes cardtwo /* Opera */
+{
+    0%   {opacity: 0}
+    25%  {opacity: 0.25}
+    50%  {opacity: 0.5}
+    75%  {opacity: 0.75}
+    100% {opacity: 1}
+}
+.card-thr{    
+    background: url(http://greets.oss-cn-beijing.aliyuncs.com/image/3.png) no-repeat;
+    top: 4.5rem;
+    left: 2.9rem;
+    transform:rotate(-25deg);
+    z-index: 3;
+    animation: cardone;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+    animation-delay: 0;
+    animation-play-state: running;
+}
+.card-fou{    
+    background: url(http://greets.oss-cn-beijing.aliyuncs.com/image/4.png) no-repeat;
+    top: 6.5rem;
+    left: 1.0rem;
+    transform:rotate(20deg);
+    z-index: 4;
+    animation: cardone;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-play-state: running;
+}
+.card-fiv{    
+    background: url(http://greets.oss-cn-beijing.aliyuncs.com/image/5.png) no-repeat;
+    top: 7.0rem;
+    left: 4.1rem;
+    transform:rotate(290deg);
+    z-index: 2;
+    animation: cardone;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-play-state: running;
+}
+.go-one{
+    background: url(../image/button/d2.png) no-repeat;
+    top: 11.9rem;
+    left: 1.3rem;
+    display: block;
+    width: 5.3rem;
+    background-size: 100%;
+    height: 1.0rem;
+    position: absolute;
+}
+
+
+.step-two{
+    position: relative;
+    background: url(http://greets.oss-cn-beijing.aliyuncs.com/image/b2.png) no-repeat;
+    width: 7.5rem;
+    height: 13.8rem;
+    background-size: 100%;
+    padding-top: 1.5rem;
+    text-align: center;
+    display: none;
+}
+.step-two .words input{    
+    display: inline-block;
+    margin: auto;
+    border: 1px solid #bc1a21;
+    height: 0.6rem;
+    padding-left: 0.4rem;
+    width: 3.3rem;
+    color: #bc1a21;
+    line-height: 0.6rem;
+    outline: none;
+    font-size: 0.3rem;
+}
+
+.step-two .words .leftput{    
+    background: url(../image/leftput.png) no-repeat;
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.7rem;
+    background-size: 100%;
+    vertical-align: -0.27rem;
+    margin-right: -0.25rem;
+ }
+
+.step-two .words .rightput{
+    background: url("../image/rightput.png") no-repeat;
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.7rem;
+    background-size: 92%;
+    vertical-align: -0.27rem;
+    margin-left: -0.25rem;
+ }
+
+.step-two .words-two input{
+    vertical-align: 0.3rem;
+}
+.step-two .words-two .leftput{
+    vertical-align: 0.02rem;
+}
+.step-two .words-two .rightput{
+    vertical-align: 0rem;
+}
+.step-two .words .two-word{
+}
+.step-two .list li{   
+    width: 1.2rem;
+    border: 1px solid #F3882F;
+    font-size: 0.27rem;
+    display: inline-block;
+    padding: 0.1rem 0.1rem;
+    color: #FFFFFF;
+    margin: 0 0.1rem;
+    background-color: #F3882F;
+    text-align: center;
+    line-height: 0.36rem;
+    vertical-align: 0.3rem;
+    border-radius: 3px;
+}
+.step-two .list{
+    margin: 0.3rem 0 0.1rem;
+}
+.step-two .model-it{
+    background-size: 100%;
+    background-repeat: no-repeat;    
+    width: 2.8rem;
+    height: 4.0rem;
+    margin: 0.5rem auto 0;
+
+}
+.step-two .titles{
+    font-size: 0.33rem;
+    margin: 0.1rem 0 0 0.37rem;
+    background-color: #e83c3c;
+    width: 1.8rem;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 0.54rem;
+    letter-spacing: 0.1rem;
+    border-radius: 3px;
+}
+.step-two .back-it{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 6.3rem;
+    height: 4.0rem;
+    margin: 0.5rem auto 0;
+}
+.step-two .go-two{
+    background: url(../image/d2.png) no-repeat;
+    display: block;
+    width: 5.3rem;
+    background-size: 100%;
+    height: 0.7rem;
+    margin: 1.3rem auto 1.2rem;
+}
+
+.step-three{
+    position: relative;
+    background: url(http://greets.oss-cn-beijing.aliyuncs.com/image/b2.png) no-repeat;
+    background-size: 100%;
+    width: 7.5rem;
+    height: 19rem;
+    padding-top: 2.6rem;
+    display: none;
+}
+.step-three .back-it{    
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 6.3rem;
+    height: 5.0rem;
+    margin: 0.5rem auto 0;
+}
+.step-three .back-it .three-words{
+    position: absolute;
+    bottom: 0.1rem;
+    font-size: 0.3rem;
+    display: block;
+    width: 100%;
+    background-color: #eca097;
+    opacity: 0.5;
+    height: 0.8rem;
+}
+.step-three .back-it .show-name{
+    position: absolute;
+    bottom: 0.15rem;
+    font-size: 0.3rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 0.1rem;
+    color: #FFFFFF;
+}
+.step-three .back-it .model-it {
+    background-size: 100%;
+    background-repeat: no-repeat;        
+    width: 2.3rem;
+    height: 3.6em;
+    margin: 0 auto 0;
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0;
+    right: 0;
+}
+.step-three .tabs{    
+    margin: 0.1rem 0 0 1.2rem;
+}
+.step-three .tabs a{    
+    border: 1px solid #F3882F;
+    font-size: 0.32rem;
+    display: inline-block;
+    padding: 0.1rem 0.1rem;
+    color: #FFFFFF;
+    margin: 0 0.35rem;
+    background-color: #F3882F;
+    text-align: center;
+    line-height: 0.45rem;
+    vertical-align: 0.3rem;
+    border-radius: 3px;
+    width: 1.5rem;
+}
+.step-three .tabs .on-checking{
+    background-color: #E4431F;
+    color: #FFF;
+    border: 1px solid #E4431F;
+}
+.step-three .qr-code .codes{   
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.step-three .qr-code .codes img{
+    width: 4rem;
+}
+.step-three .qr-code p{
+    font-size: 0.33rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+.step-three .qr-code{
+    display: none;
+}

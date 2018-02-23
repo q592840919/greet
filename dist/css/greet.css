@@ -1,0 +1,118 @@
+html,body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft Yahei";
+}
+li{
+    list-style-type: none;
+}
+ul{
+    padding: 0;
+}
+.step-three{
+    position: relative;
+    background: url(http://greets.oss-cn-beijing.aliyuncs.com/image/b4.png) no-repeat;
+    width: 7.5rem;
+    height: 11.83rem;
+    background-size: 100%;
+    padding-top: 1.5rem;
+}
+.step-three .back-it{
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 6.3rem;
+    height: 4.2rem;
+    margin: 1rem auto 0;
+}
+.step-three .back-it .three-words{
+    position: absolute;
+    bottom: 0.1rem;
+    font-size: 0.3rem;
+    display: block;
+    width: 100%;
+    background-color: #eca097;
+    opacity: 0.5;
+    height: 0.8rem;
+}
+.step-three .back-it .show-name{
+    position: absolute;
+    bottom: 0.15rem;
+    font-size: 0.3rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 0.1rem;
+    color: #FFFFFF;
+}
+.step-three .back-it .model-it {
+    background-size: 100%;
+    background-repeat: no-repeat;        
+    width: 2.3rem;
+    height: 3.6em;
+    margin: 0 auto 0;
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0;
+    right: 0;
+}
+.step-three .tabs{    
+    margin: 0.1rem 0 0 1.2rem;
+}
+.step-three .tabs a{
+    border: 1px solid #e83c3c;
+    font-size: 0.4rem;
+    display: inline-block;
+    padding: 0.1rem 0.1rem;
+    color: #333333;
+    margin: 0 0.3rem;
+    width: 1.6rem;
+    text-align: center;
+}
+.step-three .company{
+    text-align: center;
+}
+.wish-one{
+    font-size: 22px;
+    margin: 5px 0;
+}
+.wish-two{
+    font-size: 16px;
+    margin: 5px 0;
+}
+.logos{
+    background: url(../image/logo.png) no-repeat;
+    width: 4.5rem;
+    height: 2.2rem;
+    background-size: 100%;
+    margin: auto;
+}
+.music{
+    background-image: url(/image/micon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 0.6rem;
+    height: 0.6em;
+    cursor: pointer;
+    float: right;
+    margin: 10px 30px 0;
+    animation: rotate 3s linear 0s infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
